@@ -1,1 +1,1 @@
-# extension_tut
+# Chrome Extension Tutorial
