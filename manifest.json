@@ -8,5 +8,16 @@
         "48": "images/icon48.png",
         "128": "images/icon128.png"
     },
-    "description": "A basic example extension with only required keys"
+    "permissions": [ "scripting" ],
+    "description": "A basic example extension with only required keys",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
 }
